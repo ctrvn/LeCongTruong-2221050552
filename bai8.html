@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //funtion
+        function sayHello(){
+            document.write("<br>");
+            document.write("Hello");
+        }
+        sayHello();
+        function sayHello2(ten){
+            document.write("<br>");
+            document.write("Xin chào bạn"+ten);
+        }
+        sayHello2("Anh");
+        function nhapSo(so1,so2){
+            if(isNaN(so1)==false&&isNaN(so2)==false){
+                tong=so1+so2;
+                document.write("<br>");
+                document.write(tong);
+            }else{
+                document.write("Nhập số");
+            }
+
+        }
+        nhapSo(h,2);
+    </script>
+</body>
+</html>
